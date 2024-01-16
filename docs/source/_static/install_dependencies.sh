@@ -22,7 +22,7 @@ readonly ubuntu_pkgs=(
     libavformat-dev
     libswscale-dev
     python3-dev
-    libtbb2
+    libtbbmalloc2
     libtbb-dev
     libjpeg-dev
     libpng-dev
@@ -58,7 +58,7 @@ readonly ubuntu_pkgs_post22_04=(
 
 readonly ubuntu_arm_pkgs=(
     "${ubuntu_pkgs[@]}"
-    libdc1394-22-dev
+    libdc1394-dev
     # https://stackoverflow.com/a/53402396/5494277
     libhdf5-dev
     libhdf5-dev
